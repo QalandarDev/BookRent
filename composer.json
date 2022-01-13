@@ -41,7 +41,9 @@
     "ext-dom": "*",
     "ext-libxml": "*",
     "simplehtmldom/simplehtmldom": "dev-master",
-    "ext-simplexml": "*"
+    "ext-simplexml": "*",
+    "kartik-v/yii2-detail-view": "dev-master",
+    "bizley/migration": "^4.3"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "~2.1.0",

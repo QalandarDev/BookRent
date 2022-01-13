@@ -1,5 +1,6 @@
 <?php
 
+use bizley\migration\controllers\MigrationController;
 use yii\console\controllers\MigrateController;
 use yii\redis\Connection;
 use yii\log\FileTarget;
@@ -59,6 +60,9 @@ $config = [
             'class' => MigrateController::class,
             'migrationPath' => '@migrationPath',
             'migrationTable' => "bot.migration",
+        ],
+        'migration' => [
+            'class' => MigrationController::class,
         ],
     ],
 
